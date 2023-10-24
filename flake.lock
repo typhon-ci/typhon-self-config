@@ -135,11 +135,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1698102541,
-        "narHash": "sha256-oyze0hZZ/VI/BcUSxNaCGUzcbHqNR2Rx+TduuH0i9H0=",
+        "lastModified": 1698187281,
+        "narHash": "sha256-PzSFyCd9EPfb4aIHperxyWj2ZQMvhwjEuCcAJBUAwDU=",
         "owner": "typhon-ci",
         "repo": "typhon",
-        "rev": "fdea67589988c1e41b55940e4e62de336cfe42fa",
+        "rev": "b2a39d1f0f4a44473b3fbfb7f9b76bd12df3c64c",
         "type": "github"
       },
       "original": {
