@@ -49,6 +49,21 @@
         "type": "github"
       }
     },
+    "flake-schemas": {
+      "locked": {
+        "lastModified": 1697467827,
+        "narHash": "sha256-j8SR19V1SRysyJwpOBF4TLuAvAjF5t+gMiboN4gYQDU=",
+        "owner": "determinatesystems",
+        "repo": "flake-schemas",
+        "rev": "764932025c817d4e500a8d2a4d8c565563923d29",
+        "type": "github"
+      },
+      "original": {
+        "owner": "determinatesystems",
+        "repo": "flake-schemas",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -83,6 +98,10 @@
     },
     "root": {
       "inputs": {
+        "flake-schemas": [
+          "typhon",
+          "flake-schemas"
+        ],
         "typhon": "typhon"
       }
     },
@@ -130,16 +149,17 @@
       "inputs": {
         "crane": "crane",
         "flake-compat": "flake-compat",
+        "flake-schemas": "flake-schemas",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs",
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1698187281,
-        "narHash": "sha256-PzSFyCd9EPfb4aIHperxyWj2ZQMvhwjEuCcAJBUAwDU=",
+        "lastModified": 1698328395,
+        "narHash": "sha256-AUvWYJwNeSOAWARbZVflY5Ow8CLd75x6BCTBEMAteYE=",
         "owner": "typhon-ci",
         "repo": "typhon",
-        "rev": "b2a39d1f0f4a44473b3fbfb7f9b76bd12df3c64c",
+        "rev": "011163d51638d3449606989c2e61ee6398824c4a",
         "type": "github"
       },
       "original": {
