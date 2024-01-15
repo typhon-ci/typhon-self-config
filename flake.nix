@@ -1,6 +1,6 @@
 {
   inputs = {
-    typhon.url = "github:typhon-ci/typhon";
+    typhon.url = "github:typhon-ci/typhon/dev";
     flake-schemas.follows = "typhon/flake-schemas";
   };
 
