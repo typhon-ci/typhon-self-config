@@ -9,13 +9,19 @@
     typhon,
     flake-schemas,
   }: {
-    typhonProject = typhon.lib.github.mkGithubProject {
+    typhonProject = typhon.lib.github.mkProject {
       title = "Typhon";
       description = "Nix-based continuous integration";
       owner = "typhon-ci";
       repo = "typhon";
       secrets = ./secrets.age;
-      typhon_url = "https://etna.typhon-ci.org";
+      typhonUrl = "https://etna.typhon-ci.org";
+      deploy = [
+        {
+          name = "Push to Cachix";
+          value = typhon.lib.cachix.mkPush {name = "typhon";};
+        }
+      ];
     };
     schemas = {
       inherit (typhon.lib.schemas) typhonProject;
