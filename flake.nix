@@ -21,6 +21,15 @@
           name = "Push to Cachix";
           value = typhon.lib.cachix.mkPush {name = "typhon";};
         }
+        {
+          name = "Deploy the documentation";
+          value = typhon.lib.github.mkPages {
+            owner = "typhon-ci";
+            repo = "typhon";
+            job = "doc";
+            customDomain = "doc.typhon-ci.org";
+          };
+        }
       ];
     };
     schemas = {
