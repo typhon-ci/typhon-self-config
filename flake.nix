@@ -1,6 +1,6 @@
 {
   inputs = {
-    typhon.url = "github:typhon-ci/typhon/pnm/webhooks";
+    typhon.url = "github:typhon-ci/typhon/pnm/jobs";
     flake-schemas.follows = "typhon/flake-schemas";
   };
 

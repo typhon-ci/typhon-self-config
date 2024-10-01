@@ -141,16 +141,16 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1727018857,
-        "narHash": "sha256-vE9hb6ilsPONVJ1j4B8f645OoGTQOdEm2bHKx22qk5Y=",
+        "lastModified": 1727743297,
+        "narHash": "sha256-7s/REJth0HGIOZ9C9nI3PH8c3KyVIRC1WJPUtD0Nb90=",
         "owner": "typhon-ci",
         "repo": "typhon",
-        "rev": "4ba03a35050b0aedc83eba17bc5bf9170044b2b3",
+        "rev": "c58f2a06820d4f8165c409fe119394ffabb98a62",
         "type": "github"
       },
       "original": {
         "owner": "typhon-ci",
-        "ref": "pnm/webhooks",
+        "ref": "pnm/jobs",
         "repo": "typhon",
         "type": "github"
       }
